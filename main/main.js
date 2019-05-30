@@ -20,8 +20,6 @@ module.exports = function main(inputs) {
 		price=Math.round(6+0.8*(dis-2)+pT*0.25);
 	if(dis>=8)
 		price=Math.round(6+0.8*(dis-2)+0.4*(dis-8)+pT*0.25);
-	if(dis==15)
-		price=19;
 	
     //console.log(price);
     return price;
